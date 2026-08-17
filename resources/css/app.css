@@ -1,0 +1,50 @@
+@import 'bootstrap/dist/css/bootstrap.css';
+
+/* Custom styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.table th {
+    background-color: #f8f9fa;
+}
+
+.badge {
+    font-size: 0.85em;
+    padding: 0.4em 0.8em;
+}
+
+/* Status badges */
+.status-in_stock {
+    background-color: #6c757d;
+    color: white;
+}
+
+.status-in_reconditioning {
+    background-color: #ffc107;
+    color: black;
+}
+
+.status-ready_for_sale {
+    background-color: #198754;
+    color: white;
+}
+
+.status-sold {
+    background-color: #0dcaf0;
+    color: black;
+}
+
+.status-scrapped {
+    background-color: #dc3545;
+    color: white;
+}
